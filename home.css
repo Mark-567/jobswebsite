@@ -1,0 +1,81 @@
+/* Global styles */
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* Header styles */
+header {
+	background-color: #13729e;
+	color: #fff;
+	padding: 1rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+nav li {
+	margin-left: 1rem;
+  
+}
+
+/* Main styles */
+main {
+	padding: 1rem;
+}
+
+.job-card {
+	border: 1px solid #ddd;
+	padding: 1rem;
+	margin-bottom: 1rem;
+}
+
+/* Form styles */
+form label {
+	display: block;
+	margin-bottom: 0.5rem;
+}
+
+form input, form textarea {
+	display: block;
+	width: 100%;
+	padding: 0.5rem;
+	margin-bottom: 1rem;
+	border: 1px solid #ddd;
+}
+
+form button {
+	background-color:#13729e ;
+	color: #fff;
+	padding: 0.5rem;
+	border: none;
+	cursor: pointer;
+}
+
+/* Footer styles */
+footer {
+	background-color: #13729e
+}
+button {
+	background-color:#13729e ;
+	color: #fff;
+	padding: 0.5rem;
+	border: none;
+	cursor: pointer;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Job Website</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="home.css">
+</head>
+<body>
+	<header>
+		<h1>Job Website</h1>
+		<nav>
+			<ul>
+				<li><a href="C:\Users\User\Desktop\shopsite\Jobs Website\jobs\job.html">Jobs</a></li>
+				<li><a href="C:\Users\User\Desktop\shopsite\Jobs Website\profile\profile.html">Profile</a></li>
+				<li><a href="C:\Users\User\Desktop\shopsite\Jobs Website\contacts\contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<section>
+			<h2>Latest Jobs</h2>
+			<div class="job-card">
+				<h3>Job Title</h3>
+				<p>Job Description</p>
+				<a href="C:\Users\User\Desktop\shopsite\Jobs Website\jobs\job.html"><button>Apply now</button></a>
+			</div>
+			<!-- Repeat job-card div for multiple jobs -->
+		</section>
+
+		<section>
+			<h2>Post a Job</h2>
+			<form>
+				<label for="job-title">Job Title:</label>
+				<input type="text" id="job-title" name="job-title" required>
+
+				<label for="job-description">Job Description:</label>
+				<textarea id="job-description" name="job-description" required></textarea>
+
+				<label for="company-name">Company Name:</label>
+				<input type="text" id="company-name" name="company-name" required>
+
+				<label for="contact-email">Contact Email:</label>
+				<input type="email" id="contact-email" name="contact-email" required>
+
+				<button type="submit">Post Job</button>
+			</form>
+		</section>
+	</main>
+
+	<footer>
+		<p>&copy; Job Website 2023</p>
+	</footer>
+
+	<script src="script.js"></script>
+</body>
+</html>
